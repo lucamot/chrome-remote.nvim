@@ -2,7 +2,7 @@ local uv = vim.loop
 local EventEmitter = require('chrome-remote.event_emitter')
 local websocket_codec = require('chrome-remote.websocket_codec')
 local http_codec = require('chrome-remote.http_codec')
-local base64_encode = require('lua.chrome-remote.base64').encode
+local base64_encode = require('chrome-remote.base64').encode
 
 local rshift = bit.rshift
 local band = bit.band
